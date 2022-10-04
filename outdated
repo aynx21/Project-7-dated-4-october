@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int  naam, marks, fathername, subject1, sub2, sub3, sub4, sub5, totalmarks, obtainmarks, averagemarks, studentID, sum;
+bool name = true ;
+
+cout <<" Please enter your studentID_ " ;
+cin>>studentID ;
+
+if (studentID==1234)
+   { 
+       cout<< " *You are permitted*\n ";
+       
+       cout<< " Please enter your naam_";
+       cin>>name;
+       cout<< " Please enter your father's name__" ;
+       cin>>fathername;
+       cout<< " Please enter your marks in Maths out of 100__ " ;
+       cin>>subject1;
+       cout<<" Please enter your marks in physics out of 100__ " ;
+       cin>>sub2 ;
+       cout<< " Please enter your marks in Biology out of 100__ " ;
+       cin>>sub3 ;
+       cout<< " Please enter your marks in Computer Science out of 100__ " ;
+       cin>>sub4 ;
+       cout<< " Please enter your marks in Chemistry out of 100__ " ;
+       cin>>sub5 ;
+       
+       sum = subject1+sub2+sub3+sub4+sub5 ;
+       cout<< "Your total marks are"<<sum ;
+       
+   }
+else 
+{
+    cout << " Please enter the correct ID \n" ;
+}
+
+
+
+
+    return 0;
+}
